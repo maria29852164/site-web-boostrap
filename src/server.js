@@ -1,10 +1,18 @@
 import express from 'express'
 import router from './routes/router'
+import path from 'path'
+
+//let public=path.join(__dirname,'public')
+
 
 const app =express()
 
-app.set('port',process.env.PORT || 3000)
 
+//views
+//app.set('views',public)
+
+app.set('port',process.env.PORT || 3000)
+app.use(express.static(path.join(__dirname,'public')))
 app.use(express.json())
 
 //middlewares
