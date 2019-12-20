@@ -1,9 +1,7 @@
 import {Router} from 'express'
+import {home} from '../controller/controller'
 
 const router=Router()
 
-router.get('/',(req,res)=>{
-    res.send('index')
-})
-
+router.get('/',home)
 module.exports=router
