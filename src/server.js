@@ -16,10 +16,17 @@ const app =express()
 app.set('port',process.env.PORT || 3000)
 //static files
 app.use(express.static(path.join(__dirname,'public')))
+// Bootstrap 4 y librerías necesarias
+app.use( express.static(path.join(__dirname ,'..','node_modules/bootstrap/dist/css')));
+app.use( express.static(path.join(__dirname , '..','node_modules/jquery/dist')));
+app.use( express.static(path.join(__dirname ,'..','node_modules/popper.js/dist')));
+app.use( express.static(path.join(__dirname ,'..' ,'node_modules/bootstrap/dist/js')));
+
+
 //middlewares
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
-app.use(morgan('env'))
+app.use(loader('dev'))
 
 
 
