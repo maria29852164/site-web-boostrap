@@ -11,11 +11,27 @@
   margin-left:30px;
   margin-right: 30px;
   font-size: 20px;
-  transition-property:500ms color;
+  transition-property: color;
+  transition-duration:800ms ;
 }
 .nav-app:hover{
     color: rgb(98, 217, 233);    
 
 }
+.img-app{
+    height:25rem ;
+}
+.main-header{
+    background: url(../img/background.jpg);
+    background-size:cover;
+    min-height: 700px;
+}
+
+.background-overlay{
+    /*background:rgba(149, 165, 166,0.2);*/
+    background: rgba(44, 62, 80,0.5);
+    min-height: 700px;
+}
+
 
 
