@@ -35,6 +35,12 @@
 .form-control, .btn{
     border-radius: 0;
 }
+.feature-app{
+    background: rgba(45, 52, 54,1.0);
+}
+.team{
+    background: rgba(45, 52, 54,1.0);
+}
 
 
 
