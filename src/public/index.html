@@ -23,11 +23,12 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <div class="container">
-                    
-                        <li class="nav-item nav-link"><a class=" active nav-app " href="#">About</a></li>
-                        <li class="nav-item nav-link"><a class=" nav-app active" href="#">Team</a></liclass="nav-item nav-link">
-                        <li class="nav-item nav-link"><a class=" nav-app active" href="#">Contact</a></li>
-                        <li class="nav-item nav-link"><a class=" nav-app active" href="#" >Other </a>
+
+                    <li class="nav-item nav-link"><a class=" active nav-app " href="#home">Home</a></li>
+                        <li class="nav-item nav-link"><a class="link-app active nav-app " href="#questions">Questions</a></li>
+                        <li class="nav-item nav-link"><a class=" nav-app active" href="#team">Team</a></liclass="nav-item nav-link">
+                        <li class="nav-item nav-link"><a class=" nav-app active" href="#contact">Contact</a></li>
+                        <li class="nav-item nav-link"><a class=" nav-app active" href="#features" >feature </a>
                         </li>
                  
                     
@@ -43,24 +44,85 @@
        
     </nav>
     <!-- header-->
+    <a name="home"></a>
 
     <header class="main-header">
        <div class="background-overlay text-white py-5">
-           <div class="container">
-               <div class="row">
 
-                  <div class="col-md-6 text-center justify-content-center align-self-center ">
-                      <h1>este es un producto</h1>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut perferendis ipsum optio, sunt officiis corrupti alias quaerat ipsam adipisci, quos eveniet. Vero, culpa. Earum, rem.</p>
-                       <a class="btn btn-outline-secondary btn-lg text-white" href="#">Read More</a>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid img-app d-none d-sm-block"src="img/juego_de_tronos.jpg"   alt="libro de game of thrones">
-                    </div>
 
-                  
-               </div> 
-           </div>
+          <!--carrusel-->
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+     
+                       <div class="col-md-6 text-center justify-content-center align-self-center ">
+                           <h1>este es un producto</h1>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut perferendis ipsum optio, sunt officiis corrupti alias quaerat ipsam adipisci, quos eveniet. Vero, culpa. Earum, rem.</p>
+                            <a class="btn btn-outline-secondary btn-lg text-white" href="#">Read More</a>
+                         </div>
+                         <div class="col-md-6">
+                             <img class="img-fluid img-app d-none d-sm-block"src="img/juego_de_tronos.jpg"   alt="libro de game of thrones">
+                         </div>
+     
+                       
+                    </div> 
+                </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+     
+                       <div class="col-md-6 text-center justify-content-center align-self-center ">
+                           <h1>este es un producto</h1>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut perferendis ipsum optio, sunt officiis corrupti alias quaerat ipsam adipisci, quos eveniet. Vero, culpa. Earum, rem.</p>
+                            <a class="btn btn-outline-secondary btn-lg text-white" href="#">Read More</a>
+                         </div>
+                         <div class="col-md-6">
+                             <img class="img-fluid img-app d-none d-sm-block"src="img/juego_de_tronos.jpg"   alt="libro de game of thrones">
+                         </div>
+     
+                       
+                    </div> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+     
+                       <div class="col-md-6 text-center justify-content-center align-self-center ">
+                           <h1>este es un producto</h1>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut perferendis ipsum optio, sunt officiis corrupti alias quaerat ipsam adipisci, quos eveniet. Vero, culpa. Earum, rem.</p>
+                            <a class="btn btn-outline-secondary btn-lg text-white" href="#">Read More</a>
+                         </div>
+                         <div class="col-md-6">
+                             <img class="img-fluid img-app d-none d-sm-block"src="img/juego_de_tronos.jpg"   alt="libro de game of thrones">
+                         </div>
+     
+                       
+                    </div> 
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <!--carrusel-->
+
+         
+
+<!--contendor principal-->
+         
+           <!--contenedor principal-->
        </div>
 
     </header>
@@ -82,6 +144,7 @@
         </div>
 
     </section>
+    <a name="features"></a>
     <!--features-->
     <section class="py-5 feature-app">
         <div class="container">
@@ -124,6 +187,7 @@
 
     </section>
     <!--about-->
+   
     <section class="bg-light text-center ">
         <div class="container">
             <div class="row">
@@ -136,9 +200,10 @@
             </div>
         </div>
     </section>
+    <a name="questions"></a>
 
     <!--acordion-->
-    <section class="p-5 text-center">
+    <section class="p-5 text-center link-app">
         <div class="container">
             <div class="row">
                 <div class="accordion" id="accordionExample">
@@ -206,7 +271,9 @@
 
     </section>
 
+    
     <!--team-->
+    <a name="team"></a>
     <section class="text-center team">
         <div class="container p-5">
             
@@ -313,6 +380,7 @@
         </div>
     </section>
     <!--contact-->
+    <a name="contact"></a>
     <section class="bg-light py-5">
         <div class="container">
             <div class="row">
